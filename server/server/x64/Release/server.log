@@ -1,0 +1,16 @@
+﻿  stdafx.cpp
+  server.cpp
+server.cpp(54): warning C4018: “<”: 有符号/无符号不匹配
+server.cpp(73): warning C4018: “<”: 有符号/无符号不匹配
+server.cpp(122): warning C4244: “初始化”: 从“double”转换到“int64_t”，可能丢失数据
+server.cpp(124): warning C4244: “=”: 从“double”转换到“int64_t”，可能丢失数据
+server.cpp(126): warning C4244: “=”: 从“double”转换到“int64_t”，可能丢失数据
+server.cpp(135): warning C4244: “参数”: 从“int64_t”转换到“unsigned int”，可能丢失数据
+server.cpp(160): warning C4996: 'av_free_packet': 被声明为已否决
+          D:\myCode\mygithub\ServerForMedia\server\include\libavcodec/avcodec.h(4040) : 参见“av_free_packet”的声明
+  UserMessage.cpp
+UserMessage.cpp(1): warning C4627: “#include "UserMessage.h"”: 在查找预编译头使用时跳过
+          将指令添加到“StdAfx.h”或重新生成预编译头
+  正在生成代码
+  已完成代码的生成
+  server.vcxproj -> D:\myCode\mygithub\ServerForMedia\server\x64\Release\server.exe

@@ -1,0 +1,35 @@
+﻿  stdafx.cpp
+  UserMessage.cpp
+d:\mycode\mygithub\serverformedia\server\server\usermessage.cpp(30): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\mygithub\serverformedia\server\server\usermessage.cpp(49): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\mygithub\serverformedia\server\server\usermessage.cpp(95): warning C4244: “初始化”: 从“double”转换到“int64_t”，可能丢失数据
+d:\mycode\mygithub\serverformedia\server\server\usermessage.cpp(97): warning C4244: “=”: 从“double”转换到“int64_t”，可能丢失数据
+d:\mycode\mygithub\serverformedia\server\server\usermessage.cpp(99): warning C4244: “=”: 从“double”转换到“int64_t”，可能丢失数据
+d:\mycode\mygithub\serverformedia\server\server\usermessage.cpp(108): warning C4244: “参数”: 从“int64_t”转换到“unsigned int”，可能丢失数据
+d:\mycode\mygithub\serverformedia\server\server\usermessage.cpp(133): warning C4996: 'av_free_packet': 被声明为已否决
+  d:\mycode\mygithub\serverformedia\server\include\libavcodec\avcodec.h(4040): note: 参见“av_free_packet”的声明
+  Server_sock.cpp
+  server.cpp
+d:\mycode\mygithub\serverformedia\server\server\server.cpp(21): warning C4091: “typedef ”: 没有声明变量时忽略“UserMessage”的左侧
+d:\mycode\mygithub\serverformedia\server\server\server.cpp(127): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\mygithub\serverformedia\server\server\server.cpp(153): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\mygithub\serverformedia\server\server\server.cpp(220): warning C4244: “初始化”: 从“double”转换到“int64_t”，可能丢失数据
+d:\mycode\mygithub\serverformedia\server\server\server.cpp(222): warning C4244: “=”: 从“double”转换到“int64_t”，可能丢失数据
+d:\mycode\mygithub\serverformedia\server\server\server.cpp(224): warning C4244: “=”: 从“double”转换到“int64_t”，可能丢失数据
+d:\mycode\mygithub\serverformedia\server\server\server.cpp(230): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+d:\mycode\mygithub\serverformedia\server\server\server.cpp(231): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+d:\mycode\mygithub\serverformedia\server\server\server.cpp(243): warning C4244: “参数”: 从“int64_t”转换到“unsigned int”，可能丢失数据
+d:\mycode\mygithub\serverformedia\server\server\server.cpp(203): warning C4996: 'av_free_packet': 被声明为已否决
+  d:\mycode\mygithub\serverformedia\server\include\libavcodec\avcodec.h(4040): note: 参见“av_free_packet”的声明
+d:\mycode\mygithub\serverformedia\server\server\server.cpp(235): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 4 拥有了类型“int64_t”
+  d:\mycode\mygithub\serverformedia\server\server\server.cpp(235): note: 请考虑在格式字符串中使用“%lld”
+  d:\mycode\mygithub\serverformedia\server\server\server.cpp(235): note: 请考虑在格式字符串中使用“%I64d”
+d:\mycode\mygithub\serverformedia\server\server\server.cpp(235): warning C4477: “printf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 5 拥有了类型“int64_t”
+  d:\mycode\mygithub\serverformedia\server\server\server.cpp(235): note: 请考虑在格式字符串中使用“%lld”
+  d:\mycode\mygithub\serverformedia\server\server\server.cpp(235): note: 请考虑在格式字符串中使用“%I64d”
+d:\mycode\mygithub\serverformedia\server\server\server.cpp(235): warning C4477: “printf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 6 拥有了类型“int64_t”
+  d:\mycode\mygithub\serverformedia\server\server\server.cpp(235): note: 请考虑在格式字符串中使用“%lld”
+  d:\mycode\mygithub\serverformedia\server\server\server.cpp(235): note: 请考虑在格式字符串中使用“%I64d”
+  正在生成代码...
+  server.vcxproj -> D:\myCode\mygithub\ServerForMedia\server\Debug\server.exe
+  server.vcxproj -> D:\myCode\mygithub\ServerForMedia\server\Debug\server.pdb (Full PDB)
