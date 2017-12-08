@@ -10,26 +10,31 @@ d:\mycode\mygithub\serverformedia\server\server\usermessage.cpp(133): warning C4
   d:\mycode\mygithub\serverformedia\server\include\libavcodec\avcodec.h(4040): note: 参见“av_free_packet”的声明
   Server_sock.cpp
   server.cpp
-d:\mycode\mygithub\serverformedia\server\server\server.cpp(21): warning C4091: “typedef ”: 没有声明变量时忽略“UserMessage”的左侧
-d:\mycode\mygithub\serverformedia\server\server\server.cpp(127): warning C4018: “<”: 有符号/无符号不匹配
-d:\mycode\mygithub\serverformedia\server\server\server.cpp(153): warning C4018: “<”: 有符号/无符号不匹配
-d:\mycode\mygithub\serverformedia\server\server\server.cpp(220): warning C4244: “初始化”: 从“double”转换到“int64_t”，可能丢失数据
-d:\mycode\mygithub\serverformedia\server\server\server.cpp(222): warning C4244: “=”: 从“double”转换到“int64_t”，可能丢失数据
-d:\mycode\mygithub\serverformedia\server\server\server.cpp(224): warning C4244: “=”: 从“double”转换到“int64_t”，可能丢失数据
-d:\mycode\mygithub\serverformedia\server\server\server.cpp(230): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
-d:\mycode\mygithub\serverformedia\server\server\server.cpp(231): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
-d:\mycode\mygithub\serverformedia\server\server\server.cpp(243): warning C4244: “参数”: 从“int64_t”转换到“unsigned int”，可能丢失数据
-d:\mycode\mygithub\serverformedia\server\server\server.cpp(203): warning C4996: 'av_free_packet': 被声明为已否决
-  d:\mycode\mygithub\serverformedia\server\include\libavcodec\avcodec.h(4040): note: 参见“av_free_packet”的声明
-d:\mycode\mygithub\serverformedia\server\server\server.cpp(235): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 4 拥有了类型“int64_t”
-  d:\mycode\mygithub\serverformedia\server\server\server.cpp(235): note: 请考虑在格式字符串中使用“%lld”
-  d:\mycode\mygithub\serverformedia\server\server\server.cpp(235): note: 请考虑在格式字符串中使用“%I64d”
-d:\mycode\mygithub\serverformedia\server\server\server.cpp(235): warning C4477: “printf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 5 拥有了类型“int64_t”
-  d:\mycode\mygithub\serverformedia\server\server\server.cpp(235): note: 请考虑在格式字符串中使用“%lld”
-  d:\mycode\mygithub\serverformedia\server\server\server.cpp(235): note: 请考虑在格式字符串中使用“%I64d”
-d:\mycode\mygithub\serverformedia\server\server\server.cpp(235): warning C4477: “printf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 6 拥有了类型“int64_t”
-  d:\mycode\mygithub\serverformedia\server\server\server.cpp(235): note: 请考虑在格式字符串中使用“%lld”
-  d:\mycode\mygithub\serverformedia\server\server\server.cpp(235): note: 请考虑在格式字符串中使用“%I64d”
+d:\mycode\mygithub\serverformedia\server\server\server.cpp(22): warning C4091: “typedef ”: 没有声明变量时忽略“UserMessage”的左侧
+d:\mycode\mygithub\serverformedia\server\server\server.cpp(28): warning C4091: “typedef ”: 没有声明变量时忽略“data1”的左侧
+d:\mycode\mygithub\serverformedia\server\server\server.cpp(47): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\time.h(505): note: 参见“localtime”的声明
+d:\mycode\mygithub\serverformedia\server\server\server.cpp(48): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“time_t”
+d:\mycode\mygithub\serverformedia\server\server\server.cpp(48): warning C4313: “printf”: 格式字符串中的“%s”与“time_t”类型的参数 1 冲突
+d:\mycode\mygithub\serverformedia\server\server\server.cpp(150): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\mygithub\serverformedia\server\server\server.cpp(168): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\mygithub\serverformedia\server\server\server.cpp(297): warning C4244: “初始化”: 从“double”转换到“int64_t”，可能丢失数据
+d:\mycode\mygithub\serverformedia\server\server\server.cpp(309): warning C4244: “参数”: 从“int64_t”转换到“unsigned int”，可能丢失数据
+d:\mycode\mygithub\serverformedia\server\server\server.cpp(133): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+d:\mycode\mygithub\serverformedia\server\server\server.cpp(253): warning C4101: “in_stream”: 未引用的局部变量
+d:\mycode\mygithub\serverformedia\server\server\server.cpp(253): warning C4101: “out_stream”: 未引用的局部变量
+d:\mycode\mygithub\serverformedia\server\server\server.cpp(373): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\mygithub\serverformedia\server\server\server.cpp(397): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycode\mygithub\serverformedia\server\server\server.cpp(477): warning C4244: “初始化”: 从“double”转换到“int64_t”，可能丢失数据
+d:\mycode\mygithub\serverformedia\server\server\server.cpp(479): warning C4244: “=”: 从“double”转换到“int64_t”，可能丢失数据
+d:\mycode\mygithub\serverformedia\server\server\server.cpp(481): warning C4244: “=”: 从“double”转换到“int64_t”，可能丢失数据
+d:\mycode\mygithub\serverformedia\server\server\server.cpp(487): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+d:\mycode\mygithub\serverformedia\server\server\server.cpp(488): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+d:\mycode\mygithub\serverformedia\server\server\server.cpp(500): warning C4244: “参数”: 从“int64_t”转换到“unsigned int”，可能丢失数据
+d:\mycode\mygithub\serverformedia\server\server\server.cpp(445): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“int64_t”
+  d:\mycode\mygithub\serverformedia\server\server\server.cpp(445): note: 请考虑在格式字符串中使用“%lld”
+  d:\mycode\mygithub\serverformedia\server\server\server.cpp(445): note: 请考虑在格式字符串中使用“%I64d”
   正在生成代码...
   server.vcxproj -> D:\myCode\mygithub\ServerForMedia\server\Debug\server.exe
   server.vcxproj -> D:\myCode\mygithub\ServerForMedia\server\Debug\server.pdb (Full PDB)
